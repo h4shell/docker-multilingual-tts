@@ -1,0 +1,10 @@
+services:
+  multilingual-tts:
+    image: registry.hf.space/mohamedrashad-multilingual-tts:latest
+    command: python app.py
+    ports:
+      - "7860:7860"
+    platform: linux/amd64
+    stdin_open: true
+    tty: true
+    container_name: multilingual-tts
