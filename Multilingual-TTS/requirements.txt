@@ -1,0 +1,6 @@
+gradio
+edge-tts
+torch
+transformers
+pyarabic
+gradio-client
